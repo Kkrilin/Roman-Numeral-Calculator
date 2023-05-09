@@ -3,7 +3,7 @@
 function convertToRoman(num) {
   if (isNaN(num) || typeof num !== "number") return NaN;
 
-  // can be easily upgrade by key valu pair of roman and numeral in below object
+  // can be easily upgrade by key value pair of roman and numeral in below object
 
   const romanArabic = {
     I: 1,
